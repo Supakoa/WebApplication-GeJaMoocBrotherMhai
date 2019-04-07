@@ -47,20 +47,10 @@
         </div>
     </nav>
 
-    <div class="container" id="content" >
-        sdgdsgdsfgdsgsfdgdfs
-    </div>
+    <div class="container" id="content" ></div>
 
 
-    <script>
-        $(document).ready(function(e) {
-            $('#content').load("pages/main/index.php");
-        });
-
-        function call_content(folder) {
-            $('#content').load("pages/" + folder + "/index.php");
-        }
-    </script>
+    
     <!-- jquery -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
@@ -85,6 +75,16 @@
 
     <!-- wow.js -->
     <script src="node_modules/wow.js/dist/wow.min.js"></script>
+
+    <script>
+        $(document).ready(function(e) {
+            $('#content').load("pages/main/index.php");
+        });
+
+        function call_content(folder) {
+            $('#content').load("pages/" + folder + "/index.php");
+        }
+    </script>
 
 </body>
 
