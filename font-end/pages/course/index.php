@@ -1,256 +1,116 @@
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<button class="btn btn-light" id="cebtn" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+<div class="container cez">
 
+    <div class="card-body shadow rounded mb-5" style="background-color:#e6b3ff">
+        <h1 class="display-2 mb-3 text-center">Coming Soon !! </h1>
+        <div class="row  wow bounceInUp" style="z-index:3">
+            <div class="col-lg cardce ">
+                <a href="#" onclick="call_content('course/subpage')"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow " alt="..."></a>
+            </div>
+            <!-- <div class="col-lg cardce">
+                <a href="#" onclick="call_content('course/subpage')"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+            </div> -->
+            <div class="col-lg cardce">
+                <a href="#" onclick="call_content('course/subpage')"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
             </div>
         </div>
     </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-            </div>
+    <div class="row wow bounceInDown">
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
         </div>
     </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+    <div class="row wow bounceInRight">
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
         </div>
     </div>
-</div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+    <div class="row wow bounceInLeft">
+        <div class="col-lg cardce ">
+            <a href="#">
+                <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="...">
+            </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
         </div>
     </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+    <div class="row wow bounceInUp">
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
         </div>
     </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+    <div class="row wow bounceInDown">
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
         </div>
     </div>
-</div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+    <div class="row wow bounceInRight">
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
+        </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
         </div>
     </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+    <div class="row wow bounceInLeft">
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
         </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+        <div class="col-lg cardce">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
         </div>
-    </div>
-</div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
+        <div class="col-lg cardce ">
+            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."> </a>
         </div>
     </div>
 </div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+<script>
+    //up to top button
 
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    $(window).scroll(function() {
+        if ($(this).scrollTop()) {
+            $('#cebtn').fadeIn();
+        } else {
+            $('#cebtn').fadeOut();
+        }
+    });
 
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-</div>
-<div class="row ">
-    <div class="col-4-lg cardce ">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-    <div class="col-4-lg cardce">
-        <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 18rem;">
-            <img src="..." class="card-img-top" alt="...">
-            <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-
-            </div>
-        </div>
-    </div>
-</div>
+    $("#cebtn").click(function() {
+        $("html, body").animate({
+            scrollTop: 0
+        }, 1000);
+    });
+</script>
