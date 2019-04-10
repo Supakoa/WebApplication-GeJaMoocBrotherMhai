@@ -42,7 +42,7 @@
         .social_icon span {
             font-size: 60px;
             margin-left: 10px;
-            color: #FFC312;
+            color: #ff99ff;
         }
 
         .social_icon span:hover {
@@ -62,7 +62,7 @@
 
         .input-group-prepend span {
             width: 50px;
-            background-color: #FFC312;
+            background-color: #ff99ff;
             color: black;
             border: 0 !important;
         }
@@ -86,7 +86,7 @@
 
         .login_btn {
             color: black;
-            background-color: #FFC312;
+            background-color: #ff99ff;
             width: 100px;
         }
 
@@ -106,7 +106,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container" id="toggle">
         <div class="d-flex justify-content-center h-100">
             <div class="card">
                 <div class="card-header">
@@ -142,19 +142,28 @@
                 </div>
                 <div class="card-footer">
                     <div class="d-flex justify-content-center links">
-                        Don't have an account?<a href="#">Sign Up</a>
+                        Don't have an account?<a href="#" id="sign">Sign Up</a>
                     </div>
-                    <div class="d-flex justify-content-center">
+                    <!-- <div class="d-flex justify-content-center">
                         <a href="#">Forgot your password?</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
+    <div class="container h-100" ></div>
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
+    <script>
+        $(document).ready(function() {
+            $("#sign").click(function (e) { 
+                
+            $("#toggle").toggle("slide");
+                
+            });
+        });
+    </script>
 </body>
 
 </html>
