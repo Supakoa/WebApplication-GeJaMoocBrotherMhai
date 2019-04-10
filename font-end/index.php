@@ -9,6 +9,10 @@
     <!-- iconWeb -->
     <link rel="icon" type="image/ico" href="image/GElogo.png" />
 
+    <!-- carousel -->
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick-theme.css" />
+
     <!-- bootstrap 4 -->
     <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 
@@ -66,6 +70,7 @@
 
     <!-- jquery -->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="node_modules/datatables.net-dt/js/dataTables.dataTables.min.js"></script>
     <script src="node_modules/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
@@ -73,6 +78,10 @@
 
     <!-- bootstrap 4 -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!--slick carousel -->
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script> -->
+    <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.js"></script>
 
     <!-- CEFstyle -->
     <script src="node_modules/CEFstyle/CEFstyle.js"></script>
