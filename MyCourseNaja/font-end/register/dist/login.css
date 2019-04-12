@@ -4,7 +4,7 @@
 
 html,
 body {
-    background-image: url('https://sas.edu.vn/wp-content/uploads/2019/03/32fd6f68bb9dd4b48b63dacb880c3359.jpg');
+    background-image: url('https://cdn.pixabay.com/photo/2015/01/09/11/08/startup-594090_960_720.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -27,7 +27,7 @@ body {
 .social_icon span {
     font-size: 60px;
     margin-left: 10px;
-    color: #ff99ff;
+    color: #e0b7de;
 }
 
 .social_icon span:hover {
@@ -47,7 +47,7 @@ body {
 
 .input-group-prepend span {
     width: 50px;
-    background-color: #ff99ff;
+    background-color: #e0b7de;
     color: black;
     border: 0 !important;
 }
@@ -71,7 +71,7 @@ input:focus {
 
 .login_btn {
     color: black;
-    background-color: #ff99ff;
+    background-color: #e0b7de;
     width: 100px;
 }
 
