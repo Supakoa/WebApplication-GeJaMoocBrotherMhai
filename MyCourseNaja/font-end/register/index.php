@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>GE-Mycourse</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="icon" type="image/ico" href="image/GElogo.png" /> -->
 
     <link rel="stylesheet" href="../node_modules/CEFstyle/CEFstyle.css">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -22,8 +23,7 @@
                 <div id="form" class="mb-3 mt-3 " style="background-color: rgba(0, 0, 0, 0.5) !important;color:white">
                     <!-- Default form register -->
                     <form class="text-center p-5">
-                        <a href="" class="float-left" style="color:white"><i class="fas fa-arrow-left"></i>
-                        </a>
+                        <a href="" class="float-left" style="color:white"><i class="fas fa-arrow-left"></i></a>
                         <p class="h4 mb-4">Sign up</p>
 
                         <div class="form-row mb-4">
@@ -70,7 +70,6 @@
                 <div class="card" id="form1">
                     <div class="card-header">
                         <h3>Sign In</h3>
-                       
                     </div>
                     <div class="card-body">
                         <form>
