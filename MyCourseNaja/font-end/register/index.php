@@ -22,7 +22,8 @@
                 <div id="form" class="mb-3 mt-3 " style="background-color: rgba(0, 0, 0, 0.5) !important;color:white">
                     <!-- Default form register -->
                     <form class="text-center p-5">
-
+                        <a href="" class="float-left" style="color:white"><i class="fas fa-arrow-left"></i>
+                        </a>
                         <p class="h4 mb-4">Sign up</p>
 
                         <div class="form-row mb-4">
