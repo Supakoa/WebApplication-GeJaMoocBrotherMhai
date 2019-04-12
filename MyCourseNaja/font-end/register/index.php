@@ -12,26 +12,71 @@
     <!-- login.css -->
     <link rel="stylesheet" href="dist/login.css">
     <!--Fontawesome CDN-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="container-fluid h-100" style="z-index:0;background-color:chartreuse">
-        <div class="container" id="slide" style="z-index:1;background-color:cadetblue">
-
+        <div class="container" id="slide" >
             <div class="d-flex justify-content-center h-100">
-                <div id="form" class="bg-light">asdasd</div>
+                <div id="form" class="mt-3 bg-light">
+                    <!-- Default form register -->
+                    <form class="text-center p-5">
+
+                        <p class="h4 mb-4">Sign up</p>
+
+                        <div class="form-row mb-4">
+                            <div class="col">
+                                <!-- First name -->
+                                <input type="text" id="defaultRegisterFormFirstName" class="form-control" placeholder="First name">
+                            </div>
+                            <div class="col">
+                                <!-- Last name -->
+                                <input type="text" id="defaultRegisterFormLastName" class="form-control" placeholder="Last name">
+                            </div>
+                        </div>
+
+                        <!-- E-mail -->
+                        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+                        <!-- Password -->
+                        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
+                            At least 8 characters and 1 digit
+                        </small>
+
+                        <!-- Phone number -->
+                        <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                        <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
+                            Optional - for two step authentication
+                        </small>
+
+                        <!-- Sign up button -->
+                        <button class="offset-md-4 col-md-4 btn btn-info my-4 btn-block" type="submit">Sign in</button>
+
+                        <!-- Social register -->
+                        <p>or sign up with:</p>
+                            <a href="#" class="light-blue-text mx-2">
+                                <i class="fab fa-facebook-square"></i>
+                            </a>
+                            <a href="#" class="light-blue-text mx-2">
+                                <i class="fab fa-google-plus-square"></i>
+                            </a>
+                            <a href="#" class="light-blue-text mx-2 ">
+                                <i class="fab fa-twitter-square"></i>
+                            </a>
+
+                    </form>
+                    <!-- Default form register -->
+                </div>
 
                 <div class="card" id="form1">
                     <div class="card-header">
                         <h3>Sign In</h3>
-                        <div class="d-flex justify-content-end social_icon">
+                        <!-- <div class="d-flex justify-content-end social_icon">
                             <span><i class="fab fa-facebook-square"></i></span>
                             <span><i class="fab fa-google-plus-square"></i></span>
                             <span><i class="fab fa-twitter-square"></i></span>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="card-body">
                         <form>
@@ -63,19 +108,19 @@
                     </div>
                 </div>
             </div>
+            <!-- sign in -->
+
         </div>
-    </div>
 
     <!-- <div class="container h-100" ></div> -->
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-         $("#form").hide();
-        
-        $("#sign").click(function () {
-            // $("#form").show();
-            $("#form1").fadeOut(function (){
+        $("#form").hide();
+
+        $("#sign").click(function() {
+            $("#form1").fadeOut(function() {
                 $("#form").fadeIn("slow");
             });
 
