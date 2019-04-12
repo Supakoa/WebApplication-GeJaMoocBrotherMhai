@@ -73,8 +73,10 @@
             $("#form").hide();
         });
         $("#sign").click(function() {
-            $("#form").fadeIn();
-            $("#faorm1").fadeOut();
+            // $("#faorm1").hide("slow", function() {
+            //     alert("Animation complete.");
+            // });
+            $("#form").fadeIn("slow", 3500);
             $("#form").show();
         });
     </script>
