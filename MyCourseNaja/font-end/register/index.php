@@ -18,7 +18,8 @@
 <body>
         <div class="container" id="slide" >
             <div class="d-flex justify-content-center h-100">
-                <div id="form" class="mb-3 mt-3 bg-light">
+    
+                <div id="form" class="mb-3 mt-3 " style="background-color: rgba(0, 0, 0, 0.5) !important;color:white">
                     <!-- Default form register -->
                     <form class="text-center p-5">
 
@@ -47,7 +48,7 @@
                         
 
                         <!-- Sign up button -->
-                        <button class="offset-md-4 col-md-4 btn btn-info my-4 btn-block" type="submit">Sign in</button>
+                        <input type="submit" value="Login" class="btn login_btn mb-4">
 
                         <!-- Social register -->
                         <p>or sign up with:</p>
