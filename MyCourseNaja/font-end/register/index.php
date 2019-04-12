@@ -71,9 +71,8 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function () {
-            $("#form").hide();
-        });
+         $("#form").hide();
+        
         $("#sign").click(function () {
             // $("#form").show();
             $("#form1").fadeOut(function (){
