@@ -12,17 +12,19 @@
     <!-- login.css -->
     <link rel="stylesheet" href="dist/login.css">
     <!--Fontawesome CDN-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
 </head>
 
 <body>
     <div class="container-fluid h-100" style="z-index:0;background-color:chartreuse">
         <div class="container" id="slide" style="z-index:1;background-color:cadetblue">
-            <div id="form" class="h-100">asdasd</div>
 
-            <div class="d-flex justify-content-center h-100" id="form1">
-                <div class="card">
+            <div class="d-flex justify-content-center h-100">
+                <div id="form" class="bg-light">asdasd</div>
+
+                <div class="card" id="form1">
                     <div class="card-header">
                         <h3>Sign In</h3>
                         <div class="d-flex justify-content-end social_icon">
@@ -69,13 +71,15 @@
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#form").hide();
         });
-        $("#sign").click(function() {
-            $("#form").fadeIn("slow");
-            $("#form1").hide();
+        $("#sign").click(function () {
             // $("#form").show();
+            $("#form1").fadeOut(function (){
+                $("#form").fadeIn("slow");
+            });
+
         });
     </script>
 </body>
