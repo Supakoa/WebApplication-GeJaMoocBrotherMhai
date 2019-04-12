@@ -1,6 +1,6 @@
 /* Made with love by Mutiullah Samim*/
 
-/* @import url('https://fonts.googleapis.com/css?family=Numans'); */
+@import url('https://fonts.googleapis.com/css?family=Numans');
 
 html,
 body {
@@ -86,17 +86,4 @@ input:focus {
 
 .links a {
     margin-left: 4px;
-}
-.login{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    font-size: 36px;
-    text-align: center;
-    color: yellow;
-    background: red;
-    padding-top: 25px;
-    top: 0;
-    left: 0;
-    display: none;
 }

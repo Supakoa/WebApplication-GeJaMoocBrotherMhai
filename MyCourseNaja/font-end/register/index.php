@@ -18,7 +18,8 @@
 <body>
         <div class="container" id="slide" >
             <div class="d-flex justify-content-center h-100">
-                <div id="form" class="mt-3 bg-light">
+    
+                <div id="form" class="mb-3 mt-3 " style="background-color: rgba(0, 0, 0, 0.5) !important;color:white">
                     <!-- Default form register -->
                     <form class="text-center p-5">
 
@@ -36,22 +37,18 @@
                         </div>
 
                         <!-- E-mail -->
-                        <input type="email" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="E-mail">
+                        <input type="text" id="defaultRegisterFormEmail" class="form-control mb-4" placeholder="Username">
 
                         <!-- Password -->
-                        <input type="password" id="defaultRegisterFormPassword" class="form-control" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
-                        <small id="defaultRegisterFormPasswordHelpBlock" class="form-text text-muted mb-4">
-                            At least 8 characters and 1 digit
-                        </small>
+                        <input type="password" id="defaultRegisterFormPassword" class="form-control mb-4" placeholder="Password" aria-describedby="defaultRegisterFormPasswordHelpBlock">
+                        
 
                         <!-- Phone number -->
-                        <input type="text" id="defaultRegisterPhonePassword" class="form-control" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
-                        <small id="defaultRegisterFormPhoneHelpBlock" class="form-text text-muted mb-4">
-                            Optional - for two step authentication
-                        </small>
+                        <input type="text" id="defaultRegisterPhonePassword" class="form-control mb-4" placeholder="Phone number" aria-describedby="defaultRegisterFormPhoneHelpBlock">
+                        
 
                         <!-- Sign up button -->
-                        <button class="offset-md-4 col-md-4 btn btn-info my-4 btn-block" type="submit">Sign in</button>
+                        <input type="submit" value="Login" class="btn login_btn mb-4">
 
                         <!-- Social register -->
                         <p>or sign up with:</p>
@@ -72,11 +69,7 @@
                 <div class="card" id="form1">
                     <div class="card-header">
                         <h3>Sign In</h3>
-                        <!-- <div class="d-flex justify-content-end social_icon">
-                            <span><i class="fab fa-facebook-square"></i></span>
-                            <span><i class="fab fa-google-plus-square"></i></span>
-                            <span><i class="fab fa-twitter-square"></i></span>
-                        </div> -->
+                       
                     </div>
                     <div class="card-body">
                         <form>
