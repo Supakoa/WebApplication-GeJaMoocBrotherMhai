@@ -1,4 +1,4 @@
-<div class="cez">
+<div class="cez ">
     <h5 class="card-title">My course</h5>
     <div class="row ">
         <div class="col-lg cardce ">
@@ -7,14 +7,16 @@
 
     </div>
     <hr class="mt-3">
+    <?php $i = 5  ?>
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Total Course 3</a>
+        <a class="navbar-brand">Total Course <?php echo $i*3 ?></a>
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </nav>
-
+    <?php for ($i = 1; $i <= 5; $i++) {
+     ?>
     <div class="row wow bounceInRight mt-3">
         <div class="col-lg cardce ">
             <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
@@ -26,6 +28,7 @@
             <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
         </div>
     </div>
+    <?php  }?>
 </div>
 
 <!-- Large modal -->

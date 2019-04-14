@@ -42,22 +42,21 @@
         <div class="container ">
             <div class="card mb-5">
                 <div class="card-header">
-                    <ul class="nav justify-content-center">
+                    <ul class="nav nav-tabs justify-content-start" id="mytab">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#" onclick="call_content('index.php')"> Mycourse</a>
+                            <a class="nav-link active " href="#" onclick="call_content('index.php')"> Mycourse</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="call_content('profile.php')">Profile</a>
+                            <a class="nav-link " href="#" onclick="call_content('profile.php')">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" onclick="call_content('setting.php')">Setting</a>
+                            <a class="nav-link " href="#" onclick="call_content('setting.php')">Setting</a>
                         </li>
                     </ul>
+
                 </div>
-                <div class="card-body " data-spy="scroll">
-
-                    <div id="content"></div>
-
+                <div class="card-body tab-content">
+                    <div class="tab-pane fade show active" id="content"></div>
                 </div>
             </div>
         </div>
@@ -68,7 +67,7 @@
             </dl>
         </footer>
     </div>
-    
+
 
 
     <script src="../node_modules/jquery/dist/jquery.js"></script>
@@ -79,6 +78,10 @@
     <!-- CEFstyle -->
     <script src="../node_modules/CEFstyle/CEFstyle.js"></script>
     <script>
+        $('#mytab a').on('click', function(e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
         wow = new WOW({
             boxClass: 'wow', // default
             animateClass: 'animated', // default
@@ -87,10 +90,7 @@
             live: true // default
         })
         wow.init();
-        $('#myTab a').on('click', function(e) {
-            e.preventDefault()
-            $(this).tab('show')
-        })
+
         $(document).ready(function(e) {
             $('#content').load("subpages/index.php");
         });
