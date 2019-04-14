@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../node_modules/wow.js/css/libs/animate.css">
     <link rel="stylesheet" href="../node_modules/sweetalert2/dist/sweetalert2.min.css">
-    <link rel="stylesheet" href="dist/mycourseSDce.css">
+
     <!-- CEFstyle -->
     <link rel="stylesheet" href="../node_modules/CEFstyle/CEFstyle.css">
     <!-- fontawesom -->
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
                 <ul class="navbar-nav text-center">
                     <li class="nav-item">
-                        <a class=" nav-link"><img src="../image/13.1.jpg" alt="..." class="rounded mx-auto d-block" width="30" height="30"></a>
+                        <a class=" nav-link"><img src="../image/13.1.jpg" alt="..." class="rounded mx-auto d-block" width="25" height="25"></a>
                     </li>
                     <li class="nav-item">
                         <a class=" nav-link" href=""><i class="fas fa-sign-out-alt"></i></a>
@@ -39,41 +39,39 @@
             </div>
         </nav>
 
-        <div class="container">
-            <div class="card mt-4">
+        <div class="container ">
+            <div class="card mb-5">
                 <div class="card-header">
                     <ul class="nav justify-content-center">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#"> Mycourse</a>
+                            <a class="nav-link active" href="#" onclick="call_content('index.php')"> Mycourse</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Profile</a>
+                            <a class="nav-link" href="#" onclick="call_content('profile.php')">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Setting</a>
+                            <a class="nav-link" href="#" onclick="call_content('setting.php')">Setting</a>
                         </li>
-                        
                     </ul>
                 </div>
-                <div class="card-body">
+                <div class="card-body " data-spy="scroll">
 
                     <div id="content"></div>
 
                 </div>
             </div>
         </div>
-
-
+        <br><br>
         <footer>
-            <dl class="row" style="height:100%">
+            <dl class="row">
                 <dd class="col-sm-4 offset-sm-4 ">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
             </dl>
         </footer>
     </div>
+    
 
 
-
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../node_modules/popper.js/dist/popper.min.js"></script>
     <script src="../node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
@@ -93,6 +91,13 @@
             e.preventDefault()
             $(this).tab('show')
         })
+        $(document).ready(function(e) {
+            $('#content').load("subpages/index.php");
+        });
+
+        function call_content(sub) {
+            $('#content').load("subpages/" + sub);
+        }
     </script>
 </body>
 

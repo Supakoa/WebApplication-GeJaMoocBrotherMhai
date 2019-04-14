@@ -61,11 +61,13 @@
 
         <div id="content"></div>
 
+
         <footer>
             <dl class="row" style="height:100%">
                 <dd class="col-sm-4 offset-sm-4 ">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
             </dl>
         </footer>
+
     </div>
 
 

@@ -8,6 +8,8 @@
         </div>
     </div>
 </div>
+
+<br><br>
 <script>
     $(document).ready(function() {
         $('.single-item').slick();
