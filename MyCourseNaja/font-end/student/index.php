@@ -14,28 +14,62 @@
     <link rel="stylesheet" href="dist/mycourseSDce.css">
     <!-- CEFstyle -->
     <link rel="stylesheet" href="../node_modules/CEFstyle/CEFstyle.css">
+    <!-- fontawesom -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <div id="shell">
+    <div class="cebody">
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
+            <a class="navbar-brand " href="index.php" id="logo">GE MOOC</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" style="margin-left:180px;" href="index.php" id="logo">GE MOOC</a>
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
-
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class=" nav-link"><img src="../image/13.1.jpg" alt="..." class="rounded mx-auto d-block" width="30" height="30"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class=" nav-link" href=""><i class="fas fa-sign-out-alt"></i></a>
+                    </li>
+                </ul>
             </div>
         </nav>
-        <div id="content">
 
+        <div class="container">
+            <div class="card mt-4">
+                <div class="card-header">
+                    <ul class="nav justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#"> Mycourse</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Setting</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="card-body">
+
+                    <div id="content"></div>
+
+                </div>
+            </div>
         </div>
+
+
+        <footer>
+            <dl class="row" style="height:100%">
+                <dd class="col-sm-4 offset-sm-4 ">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
+            </dl>
+        </footer>
     </div>
-
-
-
-
-
 
 
 
@@ -45,7 +79,7 @@
     <script src="../node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
     <script src="../node_modules/wow.js/dist/wow.min.js"></script>
     <!-- CEFstyle -->
-    <script src="node_modules/CEFstyle/CEFstyle.js"></script>
+    <script src="../node_modules/CEFstyle/CEFstyle.js"></script>
     <script>
         wow = new WOW({
             boxClass: 'wow', // default
@@ -55,6 +89,10 @@
             live: true // default
         })
         wow.init();
+        $('#myTab a').on('click', function(e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
     </script>
 </body>
 

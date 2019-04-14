@@ -38,10 +38,11 @@
 <body>
     <div class="cebody">
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
+            <a class="navbar-brand " href="index.php" id="logo">GE MOOC</a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand" style="margin-left:180px;" href="index.php" id="logo">GE MOOC</a>
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
                 <ul class="navbar-nav text-center">
                     <li class="nav-item">
@@ -98,7 +99,6 @@
     <script src="node_modules/wow.js/dist/wow.min.js"></script>
 
     <script>
-
         wow = new WOW({
             boxClass: 'wow', // default
             animateClass: 'animated', // default
