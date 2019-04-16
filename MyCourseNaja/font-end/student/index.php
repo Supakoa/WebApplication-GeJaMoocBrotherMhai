@@ -28,12 +28,12 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
-                <ul class="navbar-nav text-center">
+                <ul class="navbar-nav text-center float-right">
                     <li class="nav-item">
-                        <a class=" nav-link"><img src="../image/13.1.jpg" alt="..." class="rounded mx-auto d-block" width="25" height="25"></a>
+                        <a class=" nav-link" href="#"><img src="../image/13.1.jpg" alt="..." class="rounded mx-auto d-block rounded-circle" width="25" height="25"></a>
                     </li>
                     <li class="nav-item">
-                        <a class=" nav-link" href=""><i class="fas fa-sign-out-alt"></i></a>
+                        <a class=" nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
                     </li>
                 </ul>
             </div>
@@ -44,13 +44,13 @@
                 <div class="card-header">
                     <ul class="nav nav-tabs justify-content-start" id="mytab">
                         <li class="nav-item">
-                            <a class="nav-link active " href="#" onclick="call_content('index.php')"> Mycourse</a>
+                            <a class="nav-link active " href="#" onclick="call_content('mycourse')"> Mycourse</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" onclick="call_content('profile.php')">Profile</a>
+                            <a class="nav-link " href="#" onclick="call_content('profile')">Profile</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" onclick="call_content('setting.php')">Setting</a>
+                            <a class="nav-link " href="#" onclick="call_content('setting')">Setting</a>
                         </li>
                     </ul>
 
@@ -92,11 +92,11 @@
         wow.init();
 
         $(document).ready(function(e) {
-            $('#content').load("subpages/index.php");
+            $('#content').load("subpages/mycourse/index.php");
         });
 
         function call_content(sub) {
-            $('#content').load("subpages/" + sub);
+            $('#content').load("subpages/" + sub + "/index.php");
         }
     </script>
 </body>

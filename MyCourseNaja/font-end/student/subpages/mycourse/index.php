@@ -9,26 +9,26 @@
     <hr class="mt-3">
     <?php $i = 5  ?>
     <nav class="navbar navbar-light bg-light">
-        <a class="navbar-brand">Total Course <?php echo $i*3 ?></a>
+        <a class="navbar-brand">Total Course <?php echo $i * 3 ?></a>
         <form class="form-inline">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
     </nav>
     <?php for ($i = 1; $i <= 5; $i++) {
-     ?>
-    <div class="row wow bounceInRight mt-3">
-        <div class="col-lg cardce ">
-            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+        ?>
+        <div class="row wow bounceInRight mt-3">
+            <div class="col-lg cardce ">
+                <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+            </div>
+            <div class="col-lg cardce">
+                <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+            </div>
+            <div class="col-lg cardce">
+                <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+            </div>
         </div>
-        <div class="col-lg cardce">
-            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
-        </div>
-        <div class="col-lg cardce">
-            <a href="#"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
-        </div>
-    </div>
-    <?php  }?>
+    <?php  } ?>
 </div>
 
 <!-- Large modal -->
@@ -47,7 +47,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-info btn-md">Go to Mycourse</button>
+                <a  href="course/index.php" class="btn btn-info btn-md shadow" >Go to Mycourse</a>
             </div>
         </div>
     </div>
@@ -55,8 +55,8 @@
 
 
 <script>
-    $('.createcourse').modal({
-        keyboard: true;
-        backdrop: 'static'
-    })
+    // $('.createcourse').modal({
+    //         // keyboard: true,
+    //         backdrop: 'static'
+    //     })
 </script>
