@@ -47,7 +47,7 @@
 
 
         <div class="container mb-3 text-center">
-            <video poster="../../image/plus.png" id="player" playsinline controls>
+            <video poster="../../image/plus.png" id="player"  playsinline controls>
                 <source src="../../image/VID_20190408_163256.mp4" type="video/mp4" />
                 <!-- <source src="/path/to/video.webm" type="video/webm" /> -->
 
@@ -71,7 +71,7 @@
         <br><br><br><br>
         <footer>
             <dl class="row">
-                <dd class="col-sm-4 offset-sm-4 ">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
+                <dd class="col-sm-4 offset-sm-4 " >Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
             </dl>
         </footer>
     </div>
