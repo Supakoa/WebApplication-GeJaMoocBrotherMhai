@@ -12,6 +12,9 @@
     <link rel="stylesheet" href="../../node_modules/wow.js/css/libs/animate.css">
     <link rel="stylesheet" href="../../node_modules/sweetalert2/dist/sweetalert2.min.css">
 
+    <!-- plyr -->
+    <link rel="stylesheet" href="../../node_modules/plyr/dist/plyr.css">
+
     <!-- CEFstyle -->
     <link rel="stylesheet" href="../../node_modules/CEFstyle/CEFstyle.css">
     <!-- fontawesom -->
@@ -41,9 +44,13 @@
 
 
         <div class="container mb-3 text-center">
-            <div class="embed-responsive embed-responsive-21by9" id="video">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/zpOULjyy-n8?rel=0" allowfullscreen></iframe>
-            </div>
+            <video poster="/path/to/poster.jpg" id="player" playsinline controls>
+                <source src="/path/to/video.mp4" type="video/mp4" />
+                <source src="https://www.youtube.com/watch?v=KV5Yy5jz-Tg" type="video/webm" />
+
+                <!-- Captions are optional -->
+                <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
+            </video>
         </div>
         <dt class="offset-md-1 col-md-4"> Total lesson</dt>
         <div class="list-group container">
@@ -75,7 +82,11 @@
     <script src="../../node_modules/wow.js/dist/wow.min.js"></script>
     <!-- CEFstyle -->
     <script src="../../node_modules/CEFstyle/CEFstyle.js"></script>
+    <script src="../../node_modules/plyr/dist/plyr.min.js"></script>
     <script>
+        const player = new Plyr('#player', {
+            autoplay: true;
+        });
         wow = new WOW({
             boxClass: 'wow', // default
             animateClass: 'animated', // default
