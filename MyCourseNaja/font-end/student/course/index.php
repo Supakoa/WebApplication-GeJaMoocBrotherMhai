@@ -88,7 +88,9 @@
     <script src="../../node_modules/plyr/dist/plyr.js"></script>
     <script>
         const player = new Plyr('#player', {
-            autoplay: true;
+            autoplay: true,
+            control:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
+            setting:['captions', 'quality', 'speed', 'loop'],
         });
         wow = new WOW({
             boxClass: 'wow', // default
