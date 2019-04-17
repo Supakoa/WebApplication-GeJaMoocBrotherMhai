@@ -55,8 +55,8 @@
 
 
 <script>
-    // $('.createcourse').modal({
-    //         // keyboard: true,
-    //         backdrop: 'static'
-    //     })
+    $('.createcourse').modal({
+            // keyboard: true,
+            backdrop: 'static'
+        })
 </script>
