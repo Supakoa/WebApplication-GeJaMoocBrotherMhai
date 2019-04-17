@@ -18,7 +18,8 @@
     <!-- CEFstyle -->
     <link rel="stylesheet" href="../../node_modules/CEFstyle/CEFstyle.css">
     <!-- fontawesom -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
 
@@ -27,13 +28,15 @@
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
             <a class="navbar-brand " href="index.php" id="logo">GE MOOC</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
                 <ul class="navbar-nav text-center float-right">
                     <li class="nav-item">
-                        <a class=" nav-link" href="#"><img src="../../image/13.1.jpg" alt="..." class="rounded mx-auto  rounded-circle" width="25" height="25"></a>
+                        <a class=" nav-link" href="#"><img src="../../image/13.1.jpg" alt="..."
+                                class="rounded mx-auto  rounded-circle" width="25" height="25"></a>
                     </li>
                     <li class="nav-item">
                         <a class=" nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
@@ -44,9 +47,9 @@
 
 
         <div class="container mb-3 text-center">
-            <video poster="/path/to/poster.jpg" id="player" playsinline controls>
-                <source src="/path/to/video.mp4" type="video/mp4" />
-                <source src="https://www.youtube.com/watch?v=KV5Yy5jz-Tg" type="video/webm" />
+            <video poster="../../image/plus.png" id="player" playsinline controls>
+                <source src="../../image/VID_20190408_163256.mp4" type="video/mp4" />
+                <!-- <source src="/path/to/video.webm" type="video/webm" /> -->
 
                 <!-- Captions are optional -->
                 <track kind="captions" label="English captions" src="/path/to/captions.vtt" srclang="en" default />
@@ -82,7 +85,7 @@
     <script src="../../node_modules/wow.js/dist/wow.min.js"></script>
     <!-- CEFstyle -->
     <script src="../../node_modules/CEFstyle/CEFstyle.js"></script>
-    <script src="../../node_modules/plyr/dist/plyr.min.js"></script>
+    <script src="../../node_modules/plyr/dist/plyr.js"></script>
     <script>
         const player = new Plyr('#player', {
             autoplay: true;
