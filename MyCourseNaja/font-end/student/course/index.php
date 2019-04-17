@@ -91,6 +91,7 @@
             autoplay: true,
             control:['play-large', 'play', 'progress', 'current-time', 'mute', 'volume', 'captions', 'settings', 'pip', 'airplay', 'fullscreen'],
             setting:['captions', 'quality', 'speed', 'loop'],
+            quality:{ default: 576, options: [4320, 2880, 2160, 1440, 1080, 720, 576, 480, 360, 240] },
         });
         wow = new WOW({
             boxClass: 'wow', // default
