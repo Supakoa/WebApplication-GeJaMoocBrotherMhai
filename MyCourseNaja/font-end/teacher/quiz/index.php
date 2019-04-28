@@ -22,7 +22,7 @@
 <body>
     <div class="cebody">
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
-            <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC <dd class="navbar-brand">Edit-your course</dd></a>
+            <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC <dd class="navbar-brand">Edit-your Quiz</dd></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,7 +76,9 @@
             live: true // default
         })
         wow.init();
-       
+       $(document).ready(function () {
+           $('#content').load("myquiz/index.php");
+       });
     </script>
 
 </body>
