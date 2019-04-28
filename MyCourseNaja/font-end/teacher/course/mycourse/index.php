@@ -4,8 +4,8 @@
             <div class="card shadow" style="width: 18rem;">
                 <img class="card-img-top" src="../../image/sing.jpg" alt="">
                 <div class="card-body">
-                    <h5 class="card-title">your course</h5>
-                    <p class="card-text">detail lession</p>
+                    <h5 class="card-title">ลิงร้องเพลง นะจ๊ะ -Kingkong Singing</h5>
+                    <p class="card-text">ลิงจักๆ รู้นะไม่ต้องพิมต่อ !!</p>
                     <a href="../lession/index.php" class="btn btn-sm btn-warning shadow" ><i class="fas fa-pencil-alt" style="color:#fff"></i></a>
                     <a href="#" class="btn btn-sm btn-danger shadow"><i class="fas fa-minus"></i></a>
                 </div>

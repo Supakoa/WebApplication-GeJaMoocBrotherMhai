@@ -124,7 +124,7 @@
         </div>
         <div class="row mt-3">
             <div class="offset-md-4 col-md-4 text-center">
-                <button class="btn btn-lg btn-light rounded-circle"><i class="fas fa-plus"></i></button>
+                <button class="btn btn-lg btn-light rounded-circle" type="button" data-toggle="modal" data-target="#modaladd" onclick="mdAdd('lession')"><i class="fas fa-plus"></i></button>
             </div>
         </div>
     </div>
