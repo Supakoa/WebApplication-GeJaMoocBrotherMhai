@@ -22,7 +22,7 @@
 <body>
     <div class="cebody">
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
-            <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC</a>
+            <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC <dd class="navbar-brand">Edit-your course</dd></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
                 <ul class="navbar-nav text-center float-right">
                     <li class="nav-item">
-                        <a class=" nav-link" href="index.php"><img src="../../image/13.1.jpg" alt="..." class="rounded mx-auto  rounded-circle" width="25" height="25"></a>
+                        <a class=" nav-link" href="../course/index.php"><img src="../../image/13.1.jpg" alt="..." class="rounded mx-auto  rounded-circle" width="25" height="25"></a>
                     </li>
                     <li class="nav-item">
                         <a class=" nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
@@ -42,17 +42,17 @@
         <div class="card-body">
             <div class="row">
                 <div class="col-lg-2">
-                        <nav class="nav flex-column " id="hover">
-                            <a href="#" class="btn nav-link text-left" >My course</a>
-                            <a href="#" class="btn nav-link text-left" >#2<a>
-                            <a href="#" class="btn nav-link text-left" >#3</a>
-                        </nav>
+                    <nav class="nav flex-column " id="hover">
+                        <a href="#" class="btn nav-link text-left" onclick="call_content('less/index.php')">Course</a>
+                        <a href="#" class="btn nav-link text-left" onclick="call_content('report')">Report</a>
+                        <a href="#" class="btn nav-link text-left" onclick="call_content('student_Total')">Your Student</a>
+                    </nav>
                 </div>
                 <div class="col-lg-10">
                     <div class="card">
                         <div class="card-header">
                             <div class="card-title">
-                                <h3>ID-user</h3>
+                                <h3>ลิงร้องเพลง นะจ๊ะ -Kingkong Singing</h3>
                             </div>
                         </div>
                         <div class="card-body">
@@ -62,25 +62,13 @@
                 </div>
             </div>
         </div>
-
-
-
-
         <br><br><br><br>
         <footer>
             <dl class="row">
-                <dd class="col-sm-4 offset-sm-4 ">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
+                <dd class="col-sm-4 offset-sm-4">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
             </dl>
         </footer>
     </div>
-
-
-
-
-
-
-
-
 
 
     <script src="../../node_modules/jquery/dist/jquery.js"></script>
@@ -99,13 +87,15 @@
             live: true // default
         })
         wow.init();
-
+        $('.collapse').collapse({
+            toggle: false
+        })
         $(document).ready(function() {
-            $('#content').load("mycourse/index.php");
+            $('#content').load("less/index.php");
         });
 
         function call_content(name) {
-            $('#content').load("course/" + name + "/index.php");
+            $('#content').load( name + "/index.php");
         }
 
         

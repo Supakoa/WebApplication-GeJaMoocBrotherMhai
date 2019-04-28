@@ -8,12 +8,12 @@
     <!-- iconWeb -->
     <!-- <link rel="icon" type="image/ico" href="image/GElogo.png" /> -->
     <title>Teacher-My-course</title>
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../node_modules/wow.js/css/libs/animate.css">
-    <link rel="stylesheet" href="../../node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/wow.js/css/libs/animate.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
 
     <!-- CEFstyle -->
-    <link rel="stylesheet" href="../../node_modules/CEFstyle/CEFstyle.css">
+    <link rel="stylesheet" href="node_modules/CEFstyle/CEFstyle.css">
     <!-- fontawesom -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
@@ -22,7 +22,7 @@
 <body>
     <div class="cebody">
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
-            <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC</a>
+        <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,7 +30,7 @@
             <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo01" style="">
                 <ul class="navbar-nav text-center float-right">
                     <li class="nav-item">
-                        <a class=" nav-link" href="index.php"><img src="../../image/13.1.jpg" alt="..." class="rounded mx-auto  rounded-circle" width="25" height="25"></a>
+                        <a class=" nav-link" href="#"><img src="image/13.1.jpg" alt="..." class="rounded mx-auto  rounded-circle" width="25" height="25"></a>
                     </li>
                     <li class="nav-item">
                         <a class=" nav-link" href="#"><i class="fas fa-sign-out-alt"></i></a>
@@ -40,30 +40,18 @@
         </nav>
 
         <div class="card-body">
-            <div class="row">
-                <div class="col-lg-2">
-                        <nav class="nav flex-column " id="hover">
-                            <a href="#" class="btn nav-link text-left" >My course</a>
-                            <a href="#" class="btn nav-link text-left" >#2<a>
-                            <a href="#" class="btn nav-link text-left" >#3</a>
-                        </nav>
+            <div class="row ">
+                <div class="col-lg cardce ">
+                    <a href="student/course/index.php"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
                 </div>
-                <div class="col-lg-10">
-                    <div class="card">
-                        <div class="card-header">
-                            <div class="card-title">
-                                <h3>ID-user</h3>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <div id="content"></div>
-                        </div>
-                    </div>
+                <div class="col-lg cardce">
+                    <a href="student/course/index.php"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
+                </div>
+                <div class="col-lg cardce">
+                    <a href="student/course/index.php"> <img src="image/fjords.jpg" class="img-fluid rounded mx-auto d-block mb-5 shadow" alt="..."></a>
                 </div>
             </div>
         </div>
-
-
 
 
         <br><br><br><br>
@@ -83,13 +71,13 @@
 
 
 
-    <script src="../../node_modules/jquery/dist/jquery.js"></script>
-    <script src="../../node_modules/popper.js/dist/popper.min.js"></script>
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="../../node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
-    <script src="../../node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
     <!-- CEFstyle -->
-    <script src="../../node_modules/CEFstyle/CEFstyle.js"></script>
+    <script src="node_modules/CEFstyle/CEFstyle.js"></script>
     <script>
         wow = new WOW({
             boxClass: 'wow', // default
@@ -101,14 +89,16 @@
         wow.init();
 
         $(document).ready(function() {
-            $('#content').load("mycourse/index.php");
+            $('#content').load("course/index.php");
         });
 
         function call_content(name) {
             $('#content').load("course/" + name + "/index.php");
         }
 
-        
+        function call_lession() {
+            $('#content').load("course/lession/index.php");
+        }
     </script>
 
 </body>

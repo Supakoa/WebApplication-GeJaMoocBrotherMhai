@@ -22,7 +22,7 @@
 <body>
     <div class="cebody">
         <nav class="navbar navbar-expand-lg navbar-light navbar-transparent ce" id="navce">
-            <a class="navbar-brand " href="index.php" id="logo">GE MOOC</a>
+        <a class="navbar-brand ml-4" href="index.php" id="logo">GE MOOC</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
