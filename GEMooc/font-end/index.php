@@ -62,7 +62,7 @@
         <div id="content"></div>
 
 
-        <footer>
+        <footer id="footer">
             <dl class="row" style="height:100%">
                 <dd class="col-sm-4 offset-sm-4 ">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
             </dl>
@@ -75,6 +75,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="node_modules/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../../node_modules/bootstrap/js/dist/util.js"></script>
     <script src="node_modules/datatables.net-dt/js/dataTables.dataTables.min.js"></script>
     <script src="node_modules/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
     <script src="node_modules/datatables.net-responsive-dt/js/responsive.dataTables.min.js"></script>

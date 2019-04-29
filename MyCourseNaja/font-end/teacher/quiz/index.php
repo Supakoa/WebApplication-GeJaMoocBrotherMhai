@@ -52,7 +52,7 @@
             </div>
         </div>
         <br><br><br><br>
-        <footer>
+        <footer id="footer">
             <dl class="row">
                 <dd class="col-sm-4 offset-sm-4">Copyright © 2019, by CEFstyle ,All rights reserved.</dd>
             </dl>
@@ -61,6 +61,7 @@
 
 
     <script src="../../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../../node_modules/bootstrap/js/dist/util.js"></script>
     <script src="../../node_modules/popper.js/dist/popper.min.js"></script>
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="../../node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
