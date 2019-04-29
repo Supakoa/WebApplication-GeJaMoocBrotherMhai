@@ -1,5 +1,18 @@
 <div class="cez">
-
+    <div class="img-responsive text-center mb-3">
+        <img src="../../image/King Kong 2005 1.jpg" width="800" height="600" class="img-fluid" alt="">
+    </div>
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+            <span class="input-group-text">Upload</span>
+        </div>
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputGroupFile01">
+            <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+        </div>
+    </div>
+</div>
+<div class="cez">
     <div id="accordion">
         <div class="card">
             <div class="card-header" id="headingOne" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
